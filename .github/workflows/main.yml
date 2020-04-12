@@ -12,8 +12,8 @@ jobs:
       - uses: danhellem/github-actions-issue-to-work-item@master
         env:
           ado_token: "${{ secrets.ADO_PERSONAL_ACCESS_TOKEN }}"
-          ado_organization: "ado_organization_name"
-          ado_project: "your_project_name"
+          ado_organization: "QualiShells"
+          ado_project: "Shells"
           ado_area_path: ""
           ado_wit: "Issue"
           ado_new_state: "To Do"
